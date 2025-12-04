@@ -2,7 +2,7 @@ public class Aleatorios {
     public static void main(String[] args) throws Exception {
 
         int numeros[] = aleatorios(10, 1, 7);
-        int posicionmax = obtenerPosicionMaximo(numeros);
+        //int posicionmax = obtenerPosicionMaximo(numeros);
         int numerosMax = obtenerNumemroMaximo(numeros);
         int numerosMin = obtenerNumeroMinimo(numeros);
         for (int i = 0; i < numeros.length; i++) {
