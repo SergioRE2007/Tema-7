@@ -36,5 +36,4 @@ public class eje10 {
             System.out.print(array[i]+" ");
         }
     }
-
 }
