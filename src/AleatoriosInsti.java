@@ -1,7 +1,7 @@
 public class AleatoriosInsti {
     public static void main(String[] args) throws Exception {
-        int[] num = aleatorio(97998, 5, 1);
-        int[] porcentajes = new int[5];
+        int[] num = aleatorio(3, 8, 7);
+        int[] porcentajes = new int[2];
         for (int i = 0; i < num.length; i++) {
             porcentajes[num[i]]++;
         }
