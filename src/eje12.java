@@ -25,7 +25,6 @@ public class eje12 {
 
     public static int[] cambiaarray(int[] array, int primeraposicion, int segundaposicion) {
         int auxprimera = array[primeraposicion];
-        int auxsegunda = array[segundaposicion];
 
         // Desplazar elementos hacia la izquierda desde primera hacia segunda
         for (int i = primeraposicion; i < segundaposicion; i++) {

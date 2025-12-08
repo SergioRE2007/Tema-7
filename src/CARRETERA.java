@@ -36,6 +36,5 @@ public class CARRETERA {
         } catch (Exception e) {
             // TODO: handle exception
         }
-        
     }
 }

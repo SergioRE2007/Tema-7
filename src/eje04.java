@@ -17,7 +17,6 @@ public class eje04 {
             System.out.printf("%4d  | %5d |  %6d%n",num[i],num2[i],num3[i]);
         }
     }
-
     public static int[] aleatorio(int tamaño, int max, int min) {
         int[] aleatorio = new int[tamaño];
         for (int i = 0; i < aleatorio.length; i++) {
