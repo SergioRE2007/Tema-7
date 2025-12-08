@@ -18,7 +18,6 @@ public class eje15 {
             muestraarray(mesas);
         }
     }
-
     public static int[] aleatorio(int tamaño, int max, int min) {
         int[] aleatorio = new int[tamaño];
         for (int i = 0; i < aleatorio.length; i++) {
