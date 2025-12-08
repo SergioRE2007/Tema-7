@@ -34,8 +34,8 @@ public static void muestraarray(int[] array) {
     }
     System.out.println();
 
-    for (int i = -1; i < array.length; i++) {
-        if (i == -1) {
+    for (int i = 0; i < array.length+1; i++) {
+        if (i == 0) {
             System.out.print(V+"NºMesa " + V);
         } else {
             System.out.print("  " + i + "  " + V);
@@ -59,18 +59,6 @@ public static void muestraarray(int[] array) {
     }
     System.out.println();
 }
-    public static int obtenerPosicionMaximo(int[] array) {
-        int maximo = Integer.MIN_VALUE;
-        int posicion = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > maximo) {
-                maximo = array[i];
-                posicion = i;
-            }
-        }
-        return posicion;
-    }
-
     public static int obtenerPosicionMinimo(int[] array) {
         int minimo = Integer.MAX_VALUE;
         int posicion = 0;
@@ -81,25 +69,5 @@ public static void muestraarray(int[] array) {
             }
         }
         return posicion;
-    }
-
-    public static int obtenerNumeroMinimo(int[] array) {
-        int minimo = Integer.MAX_VALUE;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < minimo) {
-                minimo = array[i];
-            }
-        }
-        return minimo;
-    }
-
-    public static int obtenerNumeroMaximo(int[] array) {
-        int maximo = Integer.MIN_VALUE;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > maximo) {
-                maximo = array[i];
-            }
-        }
-        return maximo;
     }
 }
