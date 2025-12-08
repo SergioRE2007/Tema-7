@@ -3,7 +3,7 @@ public class Aleatorios {
 
         int numeros[] = aleatorios(10, 1, 7);
         //int posicionmax = obtenerPosicionMaximo(numeros);
-        int numerosMax = obtenerNumemroMaximo(numeros);
+        int numerosMax = obtenerNumeroMaximo(numeros);
         int numerosMin = obtenerNumeroMinimo(numeros);
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] == numerosMax) {
@@ -58,7 +58,7 @@ public class Aleatorios {
         return minimo;
     }
 
-    public static int obtenerNumemroMaximo(int[] array) {
+    public static int obtenerNumeroMaximo(int[] array) {
         int maximo = Integer.MIN_VALUE;
         for (int i = 0; i < array.length; i++) {
             if (array[i]>maximo) {
